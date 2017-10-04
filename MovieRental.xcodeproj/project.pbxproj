@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B83CCF1C36886000B9EF7F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B83CCE1C36886000B9EF7F /* main.swift */; };
+		84B83CD61C36888B00B9EF7F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B83CD51C36888B00B9EF7F /* Movie.swift */; };
+		84B83CD81C36889A00B9EF7F /* Rental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B83CD71C36889A00B9EF7F /* Rental.swift */; };
+		84B83CDA1C3688A900B9EF7F /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B83CD91C3688A900B9EF7F /* Customer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84B83CC91C36886000B9EF7F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84B83CCB1C36886000B9EF7F /* MovieRental */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MovieRental; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B83CCE1C36886000B9EF7F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		84B83CD51C36888B00B9EF7F /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		84B83CD71C36889A00B9EF7F /* Rental.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rental.swift; sourceTree = "<group>"; };
+		84B83CD91C3688A900B9EF7F /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B83CC81C36886000B9EF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B83CC21C36886000B9EF7F = {
+			isa = PBXGroup;
+			children = (
+				84B83CCD1C36886000B9EF7F /* MovieRental */,
+				84B83CCC1C36886000B9EF7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B83CCC1C36886000B9EF7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B83CCB1C36886000B9EF7F /* MovieRental */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B83CCD1C36886000B9EF7F /* MovieRental */ = {
+			isa = PBXGroup;
+			children = (
+				84B83CCE1C36886000B9EF7F /* main.swift */,
+				84B83CD51C36888B00B9EF7F /* Movie.swift */,
+				84B83CD71C36889A00B9EF7F /* Rental.swift */,
+				84B83CD91C3688A900B9EF7F /* Customer.swift */,
+			);
+			path = MovieRental;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B83CCA1C36886000B9EF7F /* MovieRental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B83CD21C36886000B9EF7F /* Build configuration list for PBXNativeTarget "MovieRental" */;
+			buildPhases = (
+				84B83CC71C36886000B9EF7F /* Sources */,
+				84B83CC81C36886000B9EF7F /* Frameworks */,
+				84B83CC91C36886000B9EF7F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieRental;
+			productName = MovieRental;
+			productReference = 84B83CCB1C36886000B9EF7F /* MovieRental */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B83CC31C36886000B9EF7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xionggai;
+				TargetAttributes = {
+					84B83CCA1C36886000B9EF7F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 84B83CC61C36886000B9EF7F /* Build configuration list for PBXProject "MovieRental" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84B83CC21C36886000B9EF7F;
+			productRefGroup = 84B83CCC1C36886000B9EF7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B83CCA1C36886000B9EF7F /* MovieRental */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B83CC71C36886000B9EF7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B83CD61C36888B00B9EF7F /* Movie.swift in Sources */,
+				84B83CCF1C36886000B9EF7F /* main.swift in Sources */,
+				84B83CD81C36889A00B9EF7F /* Rental.swift in Sources */,
+				84B83CDA1C3688A900B9EF7F /* Customer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84B83CD01C36886000B9EF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84B83CD11C36886000B9EF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84B83CD31C36886000B9EF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84B83CD41C36886000B9EF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B83CC61C36886000B9EF7F /* Build configuration list for PBXProject "MovieRental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B83CD01C36886000B9EF7F /* Debug */,
+				84B83CD11C36886000B9EF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B83CD21C36886000B9EF7F /* Build configuration list for PBXNativeTarget "MovieRental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B83CD31C36886000B9EF7F /* Debug */,
+				84B83CD41C36886000B9EF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B83CC31C36886000B9EF7F /* Project object */;
+}
